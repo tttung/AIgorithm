@@ -15,7 +15,7 @@ class solution(object):
         pre = None
         next = None
         
-        while(root):
+        while(cur):
             next = cur.next
             cur.next = pre
             
@@ -116,4 +116,8 @@ class solution(object):
             node2 = node2.next if node2 else headA
 
         return node1
+
+if __name__ == '__main__':
+
+
 
