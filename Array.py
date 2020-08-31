@@ -4,8 +4,6 @@
 class Solution(object):
     '合并两个有序数组'
     def merge(self, nums1, m, nums2, n):
-        
-        # Make a copy of nums1.
         nums1_copy = nums1[:m]
         nums1[:] = []
         
