@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 class solution(object):
-    
     '青蛙跳台阶'
     def fib(self, n):
         if n <= 2:
@@ -32,7 +31,7 @@ class solution(object):
         return max_length
     
     '最长公共子序列'
-    def lcs(arr1, arr2):
+    def lcs(self, arr1, arr2):
         m, n = len(arr1), len(arr2)
         dp = [[0]*n for _ in range(m)]  #n列m行
         max_length = 0
@@ -47,7 +46,7 @@ class solution(object):
         return max_length
 
     '最长递增子序列'
-    def lis(arr):
+    def lis(self, arr):
         temp = []
         temp.append(arr[0])
         for i in range(len(arr)):
@@ -58,7 +57,7 @@ class solution(object):
                 temp[idx] = arr[i]
         return len(temp)
 
-    def binaryfind(arr, target):
+    def binaryfind(self, arr, target):
         hi = len(arr) -1
         lo = 0
         while hi >= lo:
@@ -72,7 +71,7 @@ class solution(object):
         return lo
     
     '连续子序列的最大和'
-    def lis(arr):
+    def lis(self, arr):
         m = len(arr)
         dp = [arr[0]] + [0]*(m-1)
         for i in range(1, m):
@@ -84,10 +83,11 @@ class solution(object):
                                        
 
 if __name__ == '__main__':
+    test = Solution()
     
     s1 = "'abccdefg"
     s2 = "abd"
     
-    print('最长公共连续子序列长度：', lcs(s1,s2))
+    print('最长公共连续子序列长度：', test.lcs(s1,s2))
 
 

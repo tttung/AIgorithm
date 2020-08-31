@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 class Solution(object):
-
     '组合项'
     def combine(self, n, k):
         res = []
@@ -24,9 +23,8 @@ class Solution(object):
         res = []
         out = []
         visted = {}
-        self.permuteDFS(self, num, visted, out, res)
+        self.permuteDFS(num, visted, out, res)
         return res
-
     def permuteDFS(self, num, visted, out, res):
         if len(out) = len(num):
             res.append(out)
@@ -46,7 +44,7 @@ class Solution(object):
         sort(S)
         self.getSubsets(S, 0, out, res)
         return res
-    def getSubsets(S, pos, out, res):
+    def getSubsets(self, S, pos, out, res):
         res.append(out)
         for i in range(pos, len(S)):
             res.append(out)
@@ -113,13 +111,13 @@ class Solution(object):
         self.helper(root.left, sum - root.val, out, res)
         self.helper(root.right, sum - root.val, out, res)
         out.pop()
-
+            
     def hasPathSum(self, root, sum):
         if not root:
             return False
         if not root.left and not root.right and root.val == sum:
             return Ture
-        return hasPathSum(root.left, sum - root.val) or hasPathSum(root.right, sum - root.val)
+        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 
 if __name__ == '__main__':
-
+    test = Solution()

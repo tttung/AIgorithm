@@ -107,4 +107,4 @@ class Solution(object):
         return ans
 
 if __name__ == '__main__':
-
+    test = Solution()

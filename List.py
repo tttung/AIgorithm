@@ -118,6 +118,6 @@ class solution(object):
         return node1
 
 if __name__ == '__main__':
-
+    test = Solution()
 
 

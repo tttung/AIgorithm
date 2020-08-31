@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 class Solution(object):
-    
     '快速排序'
     def partition(self, arr, start, end):
         '找轴点应该在的位置，左侧比他小，右侧比他大'
@@ -42,8 +42,6 @@ class Solution(object):
                 start = index + 1
                 index = self.partition(arr, start, end)
         return arr[:k]
-
-
 
     '归并排序'
     def merge(self, a, b):

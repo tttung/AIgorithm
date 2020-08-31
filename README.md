@@ -19,17 +19,22 @@ https://shimo.im/docs/RwwPtXgYxYdCx9G9/
 ## 排序专题
 
 https://shimo.im/docs/6kDj6qdYDqvHv3JW/ 
+* '快速排序' 'TopK 基于快排partition' '归并排序' '堆排序'
 
 ## 数组专题
 
 https://shimo.im/docs/68qvJPTRJcqQJ69R/
+* '合并两个有序数组' '旋转数组最小值' '二叉树中和为某一值的路径'
 
 ## 回溯专题
 
 https://shimo.im/docs/8dv3QY3ddyjyggtv/
+* '组合项' '全排列' '子集' '组合之和' 
 
 ## 解题框架
 
 https://shimo.im/docs/QHCC8kYkgXt86CwC/ 
 * 排序、二叉树、链表、二分查找、bfs、dfs、回溯、动态规划
+
+## Interview真题
 
