@@ -2,6 +2,18 @@
 # -*- coding: utf-8 -*-
 
 class solution(object):
+    
+    '青蛙跳台阶'
+    def fib(self, n):
+        if n <= 2:
+            return n
+        else:
+            return fib(n-2) + fib(n-1)
+    def fib_(self, n):
+        f,g = 0,1
+        for i in range(n):
+            f,g = g,g+f
+        return g
 
     '最长公共连续子序列'
     #时间：O（N2) 空间：O(m*n)
@@ -69,6 +81,7 @@ class solution(object):
             else:
                 dp[i] = arr[i]
         return max(dp)
+                                       
 
 if __name__ == '__main__':
     

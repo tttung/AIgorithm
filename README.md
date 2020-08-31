@@ -27,3 +27,9 @@ https://shimo.im/docs/68qvJPTRJcqQJ69R/
 ## 回溯专题
 
 https://shimo.im/docs/8dv3QY3ddyjyggtv/
+
+## 解题框架
+
+https://shimo.im/docs/QHCC8kYkgXt86CwC/ 
+* 排序、二叉树、链表、二分查找、bfs、dfs、回溯、动态规划
+
