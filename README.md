@@ -36,5 +36,14 @@ https://shimo.im/docs/8dv3QY3ddyjyggtv/
 https://shimo.im/docs/QHCC8kYkgXt86CwC/ 
 * 排序、二叉树、链表、二分查找、bfs、dfs、回溯、动态规划
 
+## 算法思路
+
+
+## 剑指offer解题思路
+
+https://shimo.im/docs/6HVgYXv8yvwT3yG6
+
+## leetcode前200解题思路
+
 ## Interview真题
 
