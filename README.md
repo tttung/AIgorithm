@@ -38,12 +38,17 @@ https://shimo.im/docs/QHCC8kYkgXt86CwC/
 
 ## 算法思路
 
+## python语法
+
+https://shimo.im/docs/3J6ky8JqhThq6gDX
 
 ## 剑指offer解题思路
 
 https://shimo.im/docs/6HVgYXv8yvwT3yG6
 
 ## leetcode前200解题思路
+
+https://shimo.im/docs/9tKcxYj6pqGJhkYV
 
 ## Interview真题
 
