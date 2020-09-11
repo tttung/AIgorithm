@@ -39,10 +39,12 @@ https://shimo.im/docs/QHCC8kYkgXt86CwC/
 ## 算法思路
 
 https://shimo.im/docs/rRh3cYrrwRV6C6RW
+* 递归、分治、动态规划、回溯、二分查找、双指针
 
 ## python语法
 
 https://shimo.im/docs/3J6ky8JqhThq6gDX
+* 迭代器、生成器（Map Reduce）、装饰器（闭包）、匿名函数、偏函数、协程
 
 ## 剑指offer解题思路
 
