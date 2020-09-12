@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 class Solution(object):
     '合并两个有序数组'
     def merge(self, a, b):
