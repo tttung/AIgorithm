@@ -119,5 +119,8 @@ class Solution(object):
             return Ture
         return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 
+    'N皇后'
+    def NQueens():
+
 if __name__ == '__main__':
     test = Solution()
