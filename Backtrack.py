@@ -121,6 +121,7 @@ class Solution(object):
 
     'N皇后'
     def NQueens(self):
+        if curRow == N:
 
 if __name__ == '__main__':
     test = Solution()
