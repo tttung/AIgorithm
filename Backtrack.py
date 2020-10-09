@@ -120,7 +120,7 @@ class Solution(object):
         return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 
     'N皇后'
-    def NQueens():
+    def NQueens(self):
 
 if __name__ == '__main__':
     test = Solution()
